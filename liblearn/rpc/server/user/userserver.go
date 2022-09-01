@@ -1,7 +1,7 @@
 package user
 
 import (
-	"go-guide/liblearn/rpc/pb/user"
+	"holy-go-lib/liblearn/rpc/pb/user"
 	"io"
 	"log"
 )

@@ -1,10 +1,10 @@
 package main
 
 import (
-	pb "go-guide/lib/grpc/pb/student"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/health"
 	healthPb "google.golang.org/grpc/health/grpc_health_v1"
+	pb "holy-go-lib/lib/grpc/pb/student"
 	"log"
 	"net"
 )

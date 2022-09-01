@@ -73,7 +73,7 @@ function generateSan() {
       -key ca.key \
       -subj "/C=CN/ST=Beijing/L=Beijing/O=UnitedStack/OU=Devops/CN=xulei1.com" \
       -reqexts SAN \
-      -config <(cat /Users/xulei/jungle/golangworkspace/go-guide/liblearn/rpc/keys/openssl.cnf \
+      -config <(cat /Users/xulei/jungle/golangworkspace/holy-go-lib/liblearn/rpc/keys/openssl.cnf \
           <(printf "[SAN]nsubjectAltName=DNS:xulei1.com,DNS:xulei2.com")) \
       -out server.csr
 

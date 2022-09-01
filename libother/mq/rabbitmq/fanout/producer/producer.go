@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	"go-guide/libother/mq/rabbitmq/util"
+	"holy-go-lib/libother/mq/rabbitmq/util"
 )
 
 var (

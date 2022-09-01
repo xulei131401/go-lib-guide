@@ -6,7 +6,7 @@ package main
 import (
 	"fmt"
 	"github.com/confluentinc/confluent-kafka-go/kafka"
-	. "go-guide/libother/mq/kafka/common"
+	. "holy-go-lib/libother/mq/kafka/common"
 	"log"
 )
 

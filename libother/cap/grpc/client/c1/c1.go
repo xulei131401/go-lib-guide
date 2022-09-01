@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
-	pb "go-guide/lib/grpc/pb/student"
 	"google.golang.org/grpc"
 	_ "google.golang.org/grpc/health"
+	pb "holy-go-lib/lib/grpc/pb/student"
 )
 
 func main() {

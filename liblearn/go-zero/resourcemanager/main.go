@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-guide/lib/resourcemanager/manager"
+	"holy-go-lib/lib/resourcemanager/manager"
 )
 
 var connManager = manager.NewResourceManager()

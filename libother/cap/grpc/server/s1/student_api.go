@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "go-guide/lib/grpc/pb/student"
+	pb "holy-go-lib/lib/grpc/pb/student"
 	"log"
 )
 

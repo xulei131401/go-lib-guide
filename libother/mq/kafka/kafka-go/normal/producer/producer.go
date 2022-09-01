@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/segmentio/kafka-go"
-	. "go-guide/libother/mq/kafka/common"
+	. "holy-go-lib/libother/mq/kafka/common"
 )
 
 func init() {

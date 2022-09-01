@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go-guide/liblearn/rpc/pb/my"
+	"holy-go-lib/liblearn/rpc/pb/my"
 )
 
 func main() {

@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-guide/libother/network/jwt/jwt1/jt"
+	"holy-go-lib/libother/network/jwt/jwt1/jt"
 )
 
 func main() {

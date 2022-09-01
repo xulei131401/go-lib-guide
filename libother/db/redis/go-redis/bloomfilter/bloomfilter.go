@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/go-redis/redis/v8"
-	"go-guide/libother/db/redis/go-redis/common"
+	"holy-go-lib/libother/db/redis/go-redis/common"
 )
 
 func main() {

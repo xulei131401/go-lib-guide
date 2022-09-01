@@ -8,11 +8,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"go-guide/liblearn/rpc/pb/my"
-	"go-guide/liblearn/rpc/pb/user"
+	"holy-go-lib/liblearn/rpc/pb/my"
+	"holy-go-lib/liblearn/rpc/pb/user"
 
-	my2 "go-guide/liblearn/rpc/server/my"
-	user2 "go-guide/liblearn/rpc/server/user"
+	my2 "holy-go-lib/liblearn/rpc/server/my"
+	user2 "holy-go-lib/liblearn/rpc/server/user"
 )
 
 func main() {

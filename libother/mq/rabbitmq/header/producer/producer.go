@@ -6,7 +6,7 @@ import (
 	"time"
 
 	amqp "github.com/rabbitmq/amqp091-go"
-	"go-guide/libother/mq/rabbitmq/util"
+	"holy-go-lib/libother/mq/rabbitmq/util"
 )
 
 // 参考链接：// https://www.jianshu.com/p/469f4608ce5d

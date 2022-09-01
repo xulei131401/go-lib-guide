@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	"go-guide/libother/db/redis/go-redis/common"
+	"holy-go-lib/libother/db/redis/go-redis/common"
 	"log"
 	"os"
 	"os/signal"

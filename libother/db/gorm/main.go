@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"fmt"
-	"go-guide/libother/db/gorm/model"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
+	"holy-go-lib/libother/db/gorm/model"
 	"log"
 	"os"
 	"time"

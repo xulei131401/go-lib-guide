@@ -5,9 +5,9 @@ import (
 	"log"
 	"time"
 
-	"go-guide/libother/db/redis/go-redis/common"
-	. "go-guide/libother/db/redis/go-redis/limit/limit"
 	xrate "golang.org/x/time/rate"
+	"holy-go-lib/libother/db/redis/go-redis/common"
+	. "holy-go-lib/libother/db/redis/go-redis/limit/limit"
 )
 
 func main() {

@@ -7,8 +7,8 @@ import (
 	"github.com/apache/rocketmq-client-go/v2/primitive"
 	"github.com/apache/rocketmq-client-go/v2/producer"
 	"github.com/apache/rocketmq-client-go/v2/rlog"
-	"go-guide/libother/mq/rocketmq/common"
-	"go-guide/libother/mq/rocketmq/config"
+	"holy-go-lib/libother/mq/rocketmq/common"
+	"holy-go-lib/libother/mq/rocketmq/config"
 	"os"
 	"time"
 )

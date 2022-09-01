@@ -2,7 +2,7 @@ package my
 
 import (
 	"context"
-	"go-guide/liblearn/rpc/pb/my"
+	"holy-go-lib/liblearn/rpc/pb/my"
 )
 
 type MyRPCService struct {

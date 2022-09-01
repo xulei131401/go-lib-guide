@@ -2,8 +2,8 @@ package main
 
 import (
 	"context"
-	"go-guide/liblearn/rpc/pb/user"
 	"google.golang.org/grpc/credentials"
+	"holy-go-lib/liblearn/rpc/pb/user"
 	"io"
 	"log"
 	"strconv"

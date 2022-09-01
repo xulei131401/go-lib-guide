@@ -2,7 +2,7 @@ package sqlx
 
 import (
 	"database/sql"
-	"go-guide/lib/resourcemanager/manager"
+	"holy-go-lib/lib/resourcemanager/manager"
 	"time"
 )
 

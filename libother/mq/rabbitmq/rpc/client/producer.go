@@ -7,7 +7,7 @@ import (
 	"time"
 
 	amqp "github.com/rabbitmq/amqp091-go"
-	"go-guide/libother/mq/rabbitmq/util"
+	"holy-go-lib/libother/mq/rabbitmq/util"
 )
 
 var (
