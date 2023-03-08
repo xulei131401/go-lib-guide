@@ -7,6 +7,8 @@ import (
 	"github.com/jmoiron/sqlx"
 )
 
+// sqlx官网: http://jmoiron.github.io/sqlx/
+
 type Person struct {
 	UserId   int    `db:"user_id"`
 	Username string `db:"username"`

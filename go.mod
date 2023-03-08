@@ -4,6 +4,7 @@ go 1.18
 
 require (
 	github.com/alibaba/sentinel-golang v1.0.4
+	github.com/antlr/antlr4/runtime/Go/antlr v1.4.10
 	github.com/apache/pulsar-client-go v0.8.1
 	github.com/apache/rocketmq-client-go/v2 v2.1.0
 	github.com/beanstalkd/go-beanstalk v0.1.0
@@ -13,6 +14,9 @@ require (
 	github.com/emirpasic/gods v1.18.1
 	github.com/fsnotify/fsnotify v1.5.4
 	github.com/garyburd/redigo v1.6.3
+	github.com/go-playground/locales v0.14.1
+	github.com/go-playground/universal-translator v0.18.1
+	github.com/go-playground/validator/v10 v10.11.2
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-redis/redis/v8 v8.11.5
 	github.com/go-sql-driver/mysql v1.6.0
@@ -21,6 +25,7 @@ require (
 	github.com/gorilla/websocket v1.5.0
 	github.com/hpcloud/tail v1.0.0
 	github.com/jmoiron/sqlx v1.3.5
+	github.com/logrusorgru/aurora/v3 v3.0.0
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/nsqio/go-nsq v1.1.0
 	github.com/panjf2000/ants/v2 v2.5.0
@@ -84,6 +89,7 @@ require (
 	github.com/jtolds/gls v4.20.0+incompatible // indirect
 	github.com/keybase/go-keychain v0.0.0-20190712205309-48d3d31d256d // indirect
 	github.com/klauspost/compress v1.14.2 // indirect
+	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/linkedin/goavro/v2 v2.9.8 // indirect
 	github.com/magiconair/properties v1.8.6 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
@@ -133,12 +139,12 @@ require (
 	go.uber.org/atomic v1.9.0 // indirect
 	go.uber.org/automaxprocs v1.5.1 // indirect
 	go.uber.org/multierr v1.8.0 // indirect
-	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4 // indirect
-	golang.org/x/net v0.0.0-20220520000938-2e3eb7b945c2 // indirect
+	golang.org/x/crypto v0.5.0 // indirect
+	golang.org/x/net v0.5.0 // indirect
 	golang.org/x/oauth2 v0.0.0-20220411215720-9780585627b5 // indirect
-	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
-	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/sys v0.4.0 // indirect
+	golang.org/x/term v0.4.0 // indirect
+	golang.org/x/text v0.6.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd // indirect
 	gopkg.in/fsnotify.v1 v1.4.7 // indirect
