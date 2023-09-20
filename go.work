@@ -11,12 +11,16 @@ use (
 	./casbin
 	./clickhouse
 	./cron
+	./dtm
 	./elasticsearch
 	./etcd
 	./excelize
+	./gin
 	./gjson
+	./go-zero
 	./gods
 	./gopsutil
+	./goreleaser
 	./gorm
 	./grpc
 	./jwt
