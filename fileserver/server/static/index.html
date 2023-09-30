@@ -9,5 +9,9 @@
 </head>
 <body>
     <div>首页</div>
+    <script>
+        let params = new URLSearchParams(window.location.search);
+        console.log('参数:', params.get('a'))
+    </script>
 </body>
 </html>

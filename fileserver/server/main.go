@@ -20,13 +20,14 @@ func main() {
 	fileServer := http.FileServer(http.Dir("static"))
 	server := http.Server{
 		Addr: ":8886",
-		Handler: http.HandlerFunc(func(w http.ResponseWriter, req *http.Request) {
-			log.Println("req.URL.String():", req.URL.String())
-			if strings.HasPrefix(req.URL.String(), "/static") {
-				http.StripPrefix("/static/", intercept(fileServer)).ServeHTTP(w, req)
+		Handler: http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+			log.Println("req.URL.String():", r.URL.String())
+			if strings.HasPrefix(r.URL.String(), "/static") {
+				http.StripPrefix("/static/", intercept(fileServer)).ServeHTTP(w, r)
 				return
 			}
-
+			//fileServer.ServeHTTP(w, r)
+			//http.StripPrefix("/", intercept(fileServer)).ServeHTTP(w, r)
 			log.Println("非文件类型请求")
 			return
 		}),
